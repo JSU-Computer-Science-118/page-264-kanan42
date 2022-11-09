@@ -5,8 +5,8 @@ int main()
     int num;
     cin >> num;
     bool isPrime = true;
-    const int prime[]{ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31 };
-    if (num =< 1000||num 2) {
+    const int prime[]{ 2, 3, 5, 7,9, 11, 13, 17, 19, 23, 29, 31 };
+    if (num>1000||num<2) {
         cout << "out of bound";
     }
     else {
@@ -24,4 +24,3 @@ int main()
         return 0;
     }
 }
-
